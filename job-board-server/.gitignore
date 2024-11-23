@@ -1,0 +1,13 @@
+# Ignorer le fichier .env pour ne pas exposer les variables sensibles
+.env
+
+# Ignorer le dossier node_modules qui contient les dépendances installées
+node_modules/
+
+# Ignorer les fichiers de log générés
+*.log
+
+# Ignorer les sauvegardes de l'éditeur et de l'OS (par ex. VSCode, macOS, Windows)
+.DS_Store
+*.swp
+*.swo
